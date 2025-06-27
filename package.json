@@ -1,0 +1,22 @@
+{
+  "name": "podcast-monitor-service",
+  "version": "1.0.0",
+  "description": "AI-powered podcast monitoring and analysis service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "rss-parser": "^3.13.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "axios": "^1.5.0",
+    "form-data": "^4.0.0",
+    "nodemailer": "^6.9.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
